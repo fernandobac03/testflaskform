@@ -22,7 +22,9 @@ def save():
 
 @app.route("/leer", methods=['GET'])
 def read():
-    return "Ok"
+    df = datos.Leer()
+    print(df)
+    return render_template('listar.html', personas=df)
 
 if __name__ == '__main__':
     app.run(debug=True)
