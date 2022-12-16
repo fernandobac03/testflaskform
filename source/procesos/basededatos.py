@@ -43,7 +43,7 @@ class datos():
             credenciales = {
                 "dbname": "test",
                 "user": "postgres",
-                "password": "2022.cuenca",
+                "password": "*****",
                 "host": "localhost",
                 "port": 5432
             }
